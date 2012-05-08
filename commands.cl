@@ -14,7 +14,7 @@
   (socket-send (format nil "PRIVMSG ~a :~a: ~a" roomname username msg)))
 
 ; Send message to a room
-(defun send (roomname msg)
+(defun sendroom (roomname msg)
   (socket-send (format nil "PRIVMSG ~a :~a" roomname msg)))
 
 ; Send message to a user

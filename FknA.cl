@@ -4,7 +4,7 @@
 
 (defun process ()
   (setf buffer (socket-receive))
-  (from-server-command buffer))
+  (process-command buffer))
 
 (defun main ()
   (socket-init *server* *port*)

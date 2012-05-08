@@ -3,4 +3,4 @@
 (defvar *port*      6667)
 (defvar *nick*     "FknA")
 (defvar *realname* "CL Bot")
-(defvar *room*     "#elitter")
+(defvar *room*     "#test")
